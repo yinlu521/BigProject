@@ -1,0 +1,3 @@
+G:\BigProject\iNethinkCMS.3Layer\iNethinkCMS.Model\bin\Release\iNethinkCMS.Model.dll
+G:\BigProject\iNethinkCMS.3Layer\iNethinkCMS.Model\obj\Release\iNethinkCMS.Model.csprojResolveAssemblyReference.cache
+G:\BigProject\iNethinkCMS.3Layer\iNethinkCMS.Model\obj\Release\iNethinkCMS.Model.dll

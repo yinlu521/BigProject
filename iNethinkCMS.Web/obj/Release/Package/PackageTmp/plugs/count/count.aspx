@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="count.aspx.cs" Inherits="iNethinkCMS.Web.plugs.count.count" %>

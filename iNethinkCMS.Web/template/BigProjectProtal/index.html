@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="/template/BigProjectProtal/js/dist/css/swiper.css" />
+		<link rel="stylesheet" href="/template/BigProjectProtal/css/style.css" />
+		<script src="/template/BigProjectProtal/js/jquery-1.9.1.min.js"></script>
+    	<script src="/template/BigProjectProtal/js/typed.js" type="text/javascript"></script>
+		<title>{sys:title}</title>
+		<script>
+	    $(function(){
+	
+	        $("#typed").typed({
+	            // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
+	            stringsElement: $('#typed-strings'),
+	            typeSpeed: 100,
+	            backDelay: 500,
+	            loop: false,
+	            contentType: 'html', // or text
+	            // defaults to false for infinite loop
+	            loopCount: false,
+	            callback: function(){ foo(); },
+	            resetCallback: function() { newTyped(); }
+	        });
+	
+	        $(".reset").click(function(){
+	            $("#typed").typed('reset');
+	        });
+	
+	    });
+	
+	    function newTyped(){ /* A new typed object */ }
+	
+	    function foo(){ swiper.slideNext(); }
+	
+	    </script>
+	</head>
+	<body>
+		<!-- Swiper -->
+	    <div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide" id="slide1">
+	            	<div class="wrap">
+	            		<!--index:{$Sql=Select Top 1 * From iNethinkCMS_Content Where [Display]=1 and Cid = 1 Order by Id Desc }-->
+				        <font class="h1">[index:title]</font>
+				        <div class="type-wrap">
+				            <div id="typed-strings">
+				                [index:contents]
+				            </div>
+				            <span id="typed" style="white-space:pre;"></span>
+				        </div>
+				        <!--index-->
+				    </div>
+
+	            </div>
+	            <div class="swiper-slide" id="slide2">
+	            	NO!
+	            </div>	            
+	        </div>
+	        <!-- Add Pagination -->
+	        <div class="swiper-pagination"></div>
+	    </div>
+	    <script type="text/javascript" src="/template/BigProjectProtal/js/dist/js/swiper.js" ></script>
+	    <!-- Initialize Swiper -->
+	    <script>
+	    var swiper = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        paginationClickable: true,
+	        direction: 'vertical',
+	        mousewheelControl : true,
+	    });
+	    </script>
+	</body>
+</html>

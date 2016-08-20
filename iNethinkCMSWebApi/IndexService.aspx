@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="IndexService.aspx.cs" Inherits="iNethinkCMSWebApi.IndexService" %>

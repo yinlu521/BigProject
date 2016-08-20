@@ -1,0 +1,3 @@
+G:\BigProject\iNethinkCMS.Helper\bin\Release\iNethinkCMS.Helper.dll
+G:\BigProject\iNethinkCMS.Helper\obj\Release\iNethinkCMS.Helper.csprojResolveAssemblyReference.cache
+G:\BigProject\iNethinkCMS.Helper\obj\Release\iNethinkCMS.Helper.dll

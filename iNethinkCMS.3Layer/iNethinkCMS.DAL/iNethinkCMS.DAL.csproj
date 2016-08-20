@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DF593E7C-1DB0-433A-AB40-459137E06A16}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>iNethinkCMS.DAL</RootNamespace>
+    <AssemblyName>iNethinkCMS.DAL</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAL_Config.cs" />
+    <Compile Include="DAL_iNethinkCMS_AdGroup.cs" />
+    <Compile Include="DAL_iNethinkCMS_AdList.cs" />
+    <Compile Include="DAL_iNethinkCMS_Channel.cs" />
+    <Compile Include="DAL_iNethinkCMS_Channel_CustomFields.cs" />
+    <Compile Include="DAL_iNethinkCMS_Content.cs" />
+    <Compile Include="DAL_iNethinkCMS_Custom_Pages.cs" />
+    <Compile Include="DAL_iNethinkCMS_Custom_Tags.cs" />
+    <Compile Include="DAL_iNethinkCMS_Dict.cs" />
+    <Compile Include="DAL_iNethinkCMS_Extend_Blogroll.cs" />
+    <Compile Include="DAL_iNethinkCMS_Guestbook.cs" />
+    <Compile Include="DAL_iNethinkCMS_Special.cs" />
+    <Compile Include="DAL_iNethinkCMS_Upload.cs" />
+    <Compile Include="DAL_iNethinkCMS_User.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\iNethinkCMS.Helper\iNethinkCMS.Helper.csproj">
+      <Project>{2376E225-C00B-467C-ADDE-B33D40719F69}</Project>
+      <Name>iNethinkCMS.Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\iNethinkCMS.Model\iNethinkCMS.Model.csproj">
+      <Project>{1700bb0d-db77-450b-9fcd-31f5f9f99a69}</Project>
+      <Name>iNethinkCMS.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<plugs>
+  <main>
+    <name>留言板</name>
+    <version>2013-04-18</version>
+    <description>网站通用留言板功能</description>
+    <manageurl>/plugs/guestbook/manage.aspx</manageurl>
+  </main>
+  <config>
+    <key name="state" description="是否开启留言板功能" value="1" />
+    <key name="templatepath" description="模板路径（相对于模板文件夹）" value="guestbook.html" />
+    <key name="timeinterval" description="同一访问者二次留言时间间隔" value="60" />
+    <key name="contentlength" description="留言内容长度限制" value="2000" />
+    <key name="contentclearhtml" description="留言内容纯文本" value="1" />
+    <key name="securitycode" description="是否启用验证码" value="1" />
+  </config>
+</plugs>

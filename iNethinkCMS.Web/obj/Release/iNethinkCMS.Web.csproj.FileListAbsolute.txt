@@ -1,0 +1,13 @@
+G:\BigProject\iNethinkCMS.Web\bin\iNethinkCMS.Web.dll.config
+G:\BigProject\iNethinkCMS.Web\bin\iNethinkCMS.Web.dll
+G:\BigProject\iNethinkCMS.Web\bin\iNethinkCMS.BLL.dll
+G:\BigProject\iNethinkCMS.Web\bin\iNethinkCMS.Command.dll
+G:\BigProject\iNethinkCMS.Web\bin\iNethinkCMS.Helper.dll
+G:\BigProject\iNethinkCMS.Web\bin\iNethinkCMS.Model.dll
+G:\BigProject\iNethinkCMS.Web\bin\iNethinkCMS.Web.UI.dll
+G:\BigProject\iNethinkCMS.Web\bin\URLRewriter.dll
+G:\BigProject\iNethinkCMS.Web\bin\iNethinkCMS.DAL.dll
+G:\BigProject\iNethinkCMS.Web\obj\Release\iNethinkCMS.Web.csprojResolveAssemblyReference.cache
+G:\BigProject\iNethinkCMS.Web\obj\Release\iNethinkCMS.Web.dll
+G:\BigProject\iNethinkCMS.Web\bin\Newtonsoft.Json.Net20.dll
+G:\BigProject\iNethinkCMS.Web\bin\System.Web.Extensions.dll

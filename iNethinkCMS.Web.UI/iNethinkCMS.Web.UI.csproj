@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BA3233F0-6FC0-40DE-9DAF-3A624EDD4499}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>iNethinkCMS.Web.UI</RootNamespace>
+    <AssemblyName>iNethinkCMS.Web.UI</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin_BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebUI_Function.cs" />
+    <Compile Include="WebUI_PageList.cs" />
+    <Compile Include="WebUI_Template.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\iNethinkCMS.3Layer\iNethinkCMS.BLL\iNethinkCMS.BLL.csproj">
+      <Project>{3322C6B2-3047-40AD-8E3E-A1DFA54A90FC}</Project>
+      <Name>iNethinkCMS.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\iNethinkCMS.3Layer\iNethinkCMS.Model\iNethinkCMS.Model.csproj">
+      <Project>{1700BB0D-DB77-450B-9FCD-31F5F9F99A69}</Project>
+      <Name>iNethinkCMS.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\iNethinkCMS.Command\iNethinkCMS.Command.csproj">
+      <Project>{5245FC48-FF91-4B64-8338-0DBBCDBA3211}</Project>
+      <Name>iNethinkCMS.Command</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\iNethinkCMS.Helper\iNethinkCMS.Helper.csproj">
+      <Project>{2376E225-C00B-467C-ADDE-B33D40719F69}</Project>
+      <Name>iNethinkCMS.Helper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

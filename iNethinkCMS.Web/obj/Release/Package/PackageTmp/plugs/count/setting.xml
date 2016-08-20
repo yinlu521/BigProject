@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<plugs>
+  <main>
+    <name>浏览统计</name>
+    <version>2012-07-23</version>
+    <description>统计文章的浏览次数</description>
+    <manageurl>/plugs/count/manage.aspx</manageurl>
+  </main>
+  <config>
+    <key name="state" description="是否开启浏览统计" value="1" />
+    <key name="show" description="是否显示统计数字" value="1" />
+  </config>
+</plugs>

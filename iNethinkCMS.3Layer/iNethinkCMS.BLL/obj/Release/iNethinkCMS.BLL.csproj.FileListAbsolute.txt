@@ -1,0 +1,8 @@
+G:\BigProject\iNethinkCMS.3Layer\iNethinkCMS.BLL\bin\Release\iNethinkCMS.BLL.dll
+G:\BigProject\iNethinkCMS.3Layer\iNethinkCMS.BLL\bin\Release\iNethinkCMS.Command.dll
+G:\BigProject\iNethinkCMS.3Layer\iNethinkCMS.BLL\bin\Release\iNethinkCMS.DAL.dll
+G:\BigProject\iNethinkCMS.3Layer\iNethinkCMS.BLL\bin\Release\iNethinkCMS.Model.dll
+G:\BigProject\iNethinkCMS.3Layer\iNethinkCMS.BLL\bin\Release\iNethinkCMS.Helper.dll
+G:\BigProject\iNethinkCMS.3Layer\iNethinkCMS.BLL\obj\Release\iNethinkCMS.BLL.csprojResolveAssemblyReference.cache
+G:\BigProject\iNethinkCMS.3Layer\iNethinkCMS.BLL\obj\Release\iNethinkCMS.BLL.dll
+G:\BigProject\iNethinkCMS.3Layer\iNethinkCMS.BLL\bin\Release\Newtonsoft.Json.Net20.dll

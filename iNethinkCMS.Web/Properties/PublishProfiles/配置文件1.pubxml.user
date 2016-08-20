@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2014-09-29T18:16:21.9206049+08:00</TimeStampOfAssociatedLegacyPublishXmlFile>
+    <_PublishTargetUrl>C:\Users\尹露\Desktop\BigProject</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="admin/custom/custom_pages.aspx">
+      <publishTime>05/19/2013 21:33:47</publishTime>
+    </File>
+    <File Include="admin/custom/custom_tags.aspx">
+      <publishTime>05/02/2013 16:46:02</publishTime>
+    </File>
+    <File Include="admin/extend/extend_adgroup.aspx">
+      <publishTime>09/15/2014 14:24:03</publishTime>
+    </File>
+    <File Include="admin/extend/extend_adlist.aspx">
+      <publishTime>09/15/2014 12:00:33</publishTime>
+    </File>
+    <File Include="admin/extend/extend_blogroll.aspx">
+      <publishTime>04/24/2013 14:35:52</publishTime>
+    </File>
+    <File Include="admin/extend/extend_dict.aspx">
+      <publishTime>09/05/2014 15:21:15</publishTime>
+    </File>
+    <File Include="admin/extend/extend_plugs.aspx">
+      <publishTime>07/23/2012 12:46:08</publishTime>
+    </File>
+    <File Include="admin/index.aspx">
+      <publishTime>04/26/2013 12:15:55</publishTime>
+    </File>
+    <File Include="admin/main.aspx">
+      <publishTime>06/11/2012 18:13:29</publishTime>
+    </File>
+    <File Include="admin/message/message_list.aspx">
+      <publishTime>09/03/2014 10:57:13</publishTime>
+    </File>
+    <File Include="admin/news/news_column.aspx">
+      <publishTime>08/25/2014 12:07:23</publishTime>
+    </File>
+    <File Include="admin/news/news_column_fields.aspx">
+      <publishTime>08/22/2014 15:55:32</publishTime>
+    </File>
+    <File Include="admin/news/news_content.aspx">
+      <publishTime>09/15/2014 11:12:51</publishTime>
+    </File>
+    <File Include="admin/news/news_special.aspx">
+      <publishTime>04/26/2013 18:15:19</publishTime>
+    </File>
+    <File Include="admin/skin/css/css.css">
+      <publishTime>07/24/2013 16:27:27</publishTime>
+    </File>
+    <File Include="admin/skin/images/ico_01.gif">
+      <publishTime>06/08/2012 10:48:01</publishTime>
+    </File>
+    <File Include="admin/skin/images/leftbg.gif">
+      <publishTime>05/29/2012 17:11:58</publishTime>
+    </File>
+    <File Include="admin/skin/images/lin.gif">
+      <publishTime>05/29/2012 17:11:58</publishTime>
+    </File>
+    <File Include="admin/skin/images/loading.gif">
+      <publishTime>07/25/2012 20:56:26</publishTime>
+    </File>
+    <File Include="admin/skin/images/login.jpg">
+      <publishTime>07/17/2012 13:06:46</publishTime>
+    </File>
+    <File Include="admin/skin/images/loginbg.jpg">
+      <publishTime>05/29/2012 17:25:30</publishTime>
+    </File>
+    <File Include="admin/skin/images/logo.gif">
+      <publishTime>07/17/2012 13:09:47</publishTime>
+    </File>
+    <File Include="admin/skin/images/pic.gif">
+      <publishTime>05/29/2012 17:11:58</publishTime>
+    </File>
+    <File Include="admin/skin/images/rule.gif">
+      <publishTime>05/04/2013 20:04:40</publishTime>
+    </File>
+    <File Include="admin/skin/js/command.js">
+      <publishTime>08/28/2014 16:47:22</publishTime>
+    </File>
+    <File Include="admin/skin/js/jquery.min.js">
+      <publishTime>05/26/2012 11:07:27</publishTime>
+    </File>
+    <File Include="admin/sys/sys_cache.aspx">
+      <publishTime>07/30/2012 19:41:18</publishTime>
+    </File>
+    <File Include="admin/sys/sys_seo.aspx">
+      <publishTime>07/22/2012 21:27:41</publishTime>
+    </File>
+    <File Include="admin/sys/sys_settings.aspx">
+      <publishTime>05/19/2013 08:07:46</publishTime>
+    </File>
+    <File Include="admin/sys/sys_template.aspx">
+      <publishTime>05/03/2013 11:03:19</publishTime>
+    </File>
+    <File Include="admin/sys/sys_upclear.aspx">
+      <publishTime>04/26/2013 18:18:05</publishTime>
+    </File>
+    <File Include="admin/sys/sys_user.aspx">
+      <publishTime>07/25/2013 00:12:38</publishTime>
+    </File>
+    <File Include="admin/_main_bottom.aspx">
+      <publishTime>04/16/2013 15:08:25</publishTime>
+    </File>
+    <File Include="admin/_main_desk.aspx">
+      <publishTime>07/31/2012 00:19:00</publishTime>
+    </File>
+    <File Include="admin/_main_left.aspx">
+      <publishTime>05/30/2012 09:00:35</publishTime>
+    </File>
+    <File Include="admin/_main_top.aspx">
+      <publishTime>04/25/2013 17:09:28</publishTime>
+    </File>
+    <File Include="bin/iNethinkCMS.BLL.dll">
+      <publishTime>08/07/2016 13:41:46</publishTime>
+    </File>
+    <File Include="bin/iNethinkCMS.Command.dll">
+      <publishTime>08/07/2016 13:41:45</publishTime>
+    </File>
+    <File Include="bin/iNethinkCMS.DAL.dll">
+      <publishTime>08/07/2016 13:41:46</publishTime>
+    </File>
+    <File Include="bin/iNethinkCMS.Helper.dll">
+      <publishTime>08/07/2016 13:41:44</publishTime>
+    </File>
+    <File Include="bin/iNethinkCMS.Model.dll">
+      <publishTime>07/31/2016 20:49:53</publishTime>
+    </File>
+    <File Include="bin/iNethinkCMS.Web.dll">
+      <publishTime>08/07/2016 13:41:49</publishTime>
+    </File>
+    <File Include="bin/iNethinkCMS.Web.UI.dll">
+      <publishTime>08/07/2016 13:41:47</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.Net20.dll">
+      <publishTime>04/23/2011 13:29:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.Extensions.dll">
+      <publishTime>08/15/2011 07:27:40</publishTime>
+    </File>
+    <File Include="bin/URLRewriter.dll">
+      <publishTime>07/31/2016 20:49:54</publishTime>
+    </File>
+    <File Include="channel.aspx">
+      <publishTime>08/02/2012 14:56:48</publishTime>
+    </File>
+    <File Include="config/conn.config">
+      <publishTime>08/03/2016 20:09:33</publishTime>
+    </File>
+    <File Include="config/seo.config">
+      <publishTime>07/31/2016 12:26:23</publishTime>
+    </File>
+    <File Include="config/sys.config">
+      <publishTime>08/03/2016 21:30:01</publishTime>
+    </File>
+    <File Include="content.aspx">
+      <publishTime>07/23/2012 07:02:44</publishTime>
+    </File>
+    <File Include="inc/ajax.aspx">
+      <publishTime>04/25/2013 11:13:25</publishTime>
+    </File>
+    <File Include="inc/artDialog/artDialog.js">
+      <publishTime>07/20/2012 15:18:37</publishTime>
+    </File>
+    <File Include="inc/artDialog/iframeTools.js">
+      <publishTime>07/25/2012 12:46:13</publishTime>
+    </File>
+    <File Include="inc/artDialog/skins/default.css">
+      <publishTime>07/20/2012 15:18:37</publishTime>
+    </File>
+    <File Include="inc/artDialog/skins/icons/error.png">
+      <publishTime>07/20/2012 15:18:37</publishTime>
+    </File>
+    <File Include="inc/artDialog/skins/icons/face-sad.png">
+      <publishTime>07/20/2012 15:18:37</publishTime>
+    </File>
+    <File Include="inc/artDialog/skins/icons/face-smile.png">
+      <publishTime>07/20/2012 15:18:37</publishTime>
+    </File>
+    <File Include="inc/artDialog/skins/icons/loading.gif">
+      <publishTime>07/20/2012 15:18:37</publishTime>
+    </File>
+    <File Include="inc/artDialog/skins/icons/question.png">
+      <publishTime>07/20/2012 15:18:37</publishTime>
+    </File>
+    <File Include="inc/artDialog/skins/icons/succeed.png">
+      <publishTime>07/20/2012 15:18:37</publishTime>
+    </File>
+    <File Include="inc/artDialog/skins/icons/warning.png">
+      <publishTime>07/20/2012 15:18:37</publishTime>
+    </File>
+    <File Include="inc/My97DatePicker/calendar.js">
+      <publishTime>04/23/2013 00:08:34</publishTime>
+    </File>
+    <File Include="inc/My97DatePicker/lang/zh-cn.js">
+      <publishTime>04/23/2013 00:08:34</publishTime>
+    </File>
+    <File Include="inc/My97DatePicker/skin/datePicker.gif">
+      <publishTime>04/23/2013 00:08:34</publishTime>
+    </File>
+    <File Include="inc/My97DatePicker/skin/twoer/datepicker-dev.css">
+      <publishTime>04/23/2013 10:26:26</publishTime>
+    </File>
+    <File Include="inc/My97DatePicker/skin/twoer/datepicker.css">
+      <publishTime>04/23/2013 10:26:26</publishTime>
+    </File>
+    <File Include="inc/My97DatePicker/skin/twoer/img.gif">
+      <publishTime>04/23/2013 10:26:26</publishTime>
+    </File>
+    <File Include="inc/My97DatePicker/skin/twoer/img.png">
+      <publishTime>04/23/2013 10:26:26</publishTime>
+    </File>
+    <File Include="inc/My97DatePicker/skin/WdatePicker.css">
+      <publishTime>04/23/2013 00:08:34</publishTime>
+    </File>
+    <File Include="inc/My97DatePicker/WdatePicker.js">
+      <publishTime>04/23/2013 10:28:49</publishTime>
+    </File>
+    <File Include="inc/upload.aspx">
+      <publishTime>07/25/2012 12:12:33</publishTime>
+    </File>
+    <File Include="inc/upload_base.aspx">
+      <publishTime>07/24/2013 17:32:21</publishTime>
+    </File>
+    <File Include="inc/upload_remote.aspx">
+      <publishTime>07/19/2012 16:54:33</publishTime>
+    </File>
+    <File Include="inc/verificationcode.aspx">
+      <publishTime>07/23/2012 16:28:22</publishTime>
+    </File>
+    <File Include="inc/xhEditor/src/core.js">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/src/lang.js">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/src/main.js">
+      <publishTime>04/11/2013 23:31:38</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor.js">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/angry.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/awkward.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/bye.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/config.txt">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/crazy.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/cry.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/curse.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/cute.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/despise.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/doubt.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/envy.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/fastcry.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/knock.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/laugh.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/mad.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/ohmy.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/panic.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/proud.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/quiet.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/sad.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/shutup.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/shy.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/sleep.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/smile.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/struggle.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/titter.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/tongue.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/wail.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_emot/default/wronged.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_lang/zh-cn.js">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/blank.gif">
+      <publishTime>04/11/2013 22:47:07</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/default/iframe.css">
+      <publishTime>04/11/2013 22:47:08</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/default/img/anchor.gif">
+      <publishTime>04/11/2013 22:47:08</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/default/img/close.gif">
+      <publishTime>04/11/2013 22:47:08</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/default/img/flash.gif">
+      <publishTime>04/11/2013 22:47:08</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/default/img/icons.gif">
+      <publishTime>04/11/2013 22:47:08</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/default/img/loading.gif">
+      <publishTime>04/11/2013 22:47:08</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/default/img/progress.gif">
+      <publishTime>04/11/2013 22:47:08</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/default/img/progressbg.gif">
+      <publishTime>04/11/2013 22:47:08</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/default/img/tag-address.gif">
+      <publishTime>04/11/2013 22:47:08</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/default/img/tag-div.gif">
+      <publishTime>04/11/2013 22:47:08</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/default/img/tag-h1.gif">
+      <publishTime>04/11/2013 22:47:08</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/default/img/tag-h2.gif">
+      <publishTime>04/11/2013 22:47:08</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/default/img/tag-h3.gif">
+      <publishTime>04/11/2013 22:47:08</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/default/img/tag-h4.gif">
+      <publishTime>04/11/2013 22:47:08</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/default/img/tag-h5.gif">
+      <publishTime>04/11/2013 22:47:08</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/default/img/tag-h6.gif">
+      <publishTime>04/11/2013 22:47:08</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/default/img/tag-p.gif">
+      <publishTime>04/11/2013 22:47:08</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/default/img/tag-pre.gif">
+      <publishTime>04/11/2013 22:47:08</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/default/img/waiting.gif">
+      <publishTime>04/11/2013 22:47:08</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/default/img/wmp.gif">
+      <publishTime>04/11/2013 22:47:08</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/default/img/wordimg.gif">
+      <publishTime>04/11/2013 22:47:08</publishTime>
+    </File>
+    <File Include="inc/xhEditor/xheditor_skin/default/ui.css">
+      <publishTime>04/11/2013 22:47:08</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>08/03/2016 20:06:41</publishTime>
+    </File>
+    <File Include="install/db.sql">
+      <publishTime>07/25/2013 00:37:41</publishTime>
+    </File>
+    <File Include="install/index.aspx">
+      <publishTime>07/25/2013 00:34:45</publishTime>
+    </File>
+    <File Include="install/install.css">
+      <publishTime>07/30/2012 22:30:23</publishTime>
+    </File>
+    <File Include="install/topbg.gif">
+      <publishTime>07/30/2012 20:34:29</publishTime>
+    </File>
+    <File Include="LGPL-LICENSE.txt">
+      <publishTime>04/26/2013 11:37:07</publishTime>
+    </File>
+    <File Include="plugs/count/count.aspx">
+      <publishTime>07/23/2012 10:42:30</publishTime>
+    </File>
+    <File Include="plugs/count/manage.aspx">
+      <publishTime>04/25/2013 17:04:45</publishTime>
+    </File>
+    <File Include="plugs/count/setting.xml">
+      <publishTime>04/25/2013 17:05:58</publishTime>
+    </File>
+    <File Include="plugs/guestbook/guestbook_manage.aspx">
+      <publishTime>08/25/2014 12:22:14</publishTime>
+    </File>
+    <File Include="plugs/guestbook/setting.xml">
+      <publishTime>04/19/2013 14:05:05</publishTime>
+    </File>
+    <File Include="plugs/search/index.aspx">
+      <publishTime>04/19/2013 14:14:04</publishTime>
+    </File>
+    <File Include="plugs/search/manage.aspx">
+      <publishTime>04/19/2013 20:01:05</publishTime>
+    </File>
+    <File Include="plugs/search/setting.xml">
+      <publishTime>04/19/2013 20:13:18</publishTime>
+    </File>
+    <File Include="robots.txt">
+      <publishTime>08/01/2012 19:14:07</publishTime>
+    </File>
+    <File Include="template/BigProjectProtal/.project">
+      <publishTime>08/02/2016 20:16:29</publishTime>
+    </File>
+    <File Include="template/BigProjectProtal/css/style.css">
+      <publishTime>08/02/2016 21:40:59</publishTime>
+    </File>
+    <File Include="template/BigProjectProtal/img/monkey1.png">
+      <publishTime>08/02/2016 21:36:32</publishTime>
+    </File>
+    <File Include="template/BigProjectProtal/img/monkey2.png">
+      <publishTime>08/02/2016 21:31:19</publishTime>
+    </File>
+    <File Include="template/BigProjectProtal/index.html">
+      <publishTime>08/02/2016 21:58:46</publishTime>
+    </File>
+    <File Include="template/BigProjectProtal/js/dist/css/swiper.css">
+      <publishTime>08/02/2016 20:19:01</publishTime>
+    </File>
+    <File Include="template/BigProjectProtal/js/dist/css/swiper.min.css">
+      <publishTime>08/02/2016 20:19:01</publishTime>
+    </File>
+    <File Include="template/BigProjectProtal/js/dist/js/maps/swiper.jquery.min.js.map">
+      <publishTime>08/02/2016 20:19:01</publishTime>
+    </File>
+    <File Include="template/BigProjectProtal/js/dist/js/maps/swiper.jquery.umd.min.js.map">
+      <publishTime>08/02/2016 20:19:01</publishTime>
+    </File>
+    <File Include="template/BigProjectProtal/js/dist/js/maps/swiper.min.js.map">
+      <publishTime>08/02/2016 20:19:01</publishTime>
+    </File>
+    <File Include="template/BigProjectProtal/js/dist/js/swiper.jquery.js">
+      <publishTime>08/02/2016 20:19:01</publishTime>
+    </File>
+    <File Include="template/BigProjectProtal/js/dist/js/swiper.jquery.min.js">
+      <publishTime>08/02/2016 20:19:01</publishTime>
+    </File>
+    <File Include="template/BigProjectProtal/js/dist/js/swiper.jquery.umd.js">
+      <publishTime>08/02/2016 20:19:01</publishTime>
+    </File>
+    <File Include="template/BigProjectProtal/js/dist/js/swiper.jquery.umd.min.js">
+      <publishTime>08/02/2016 20:19:01</publishTime>
+    </File>
+    <File Include="template/BigProjectProtal/js/dist/js/swiper.js">
+      <publishTime>08/02/2016 20:19:01</publishTime>
+    </File>
+    <File Include="template/BigProjectProtal/js/dist/js/swiper.min.js">
+      <publishTime>08/02/2016 20:19:01</publishTime>
+    </File>
+    <File Include="template/BigProjectProtal/js/jquery-1.9.1.min.js">
+      <publishTime>08/02/2016 20:38:38</publishTime>
+    </File>
+    <File Include="template/BigProjectProtal/js/typed.js">
+      <publishTime>08/02/2016 20:38:38</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/06/2016 15:41:22</publishTime>
+    </File>
+    <File Include="webapi/bannerService.asmx">
+      <publishTime>08/06/2016 17:56:09</publishTime>
+    </File>
+    <File Include="webapi/channelService.asmx">
+      <publishTime>08/03/2016 21:12:49</publishTime>
+    </File>
+    <File Include="webapi/systemService.asmx">
+      <publishTime>08/03/2016 21:32:50</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

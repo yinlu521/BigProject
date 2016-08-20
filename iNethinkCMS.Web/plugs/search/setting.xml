@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<plugs>
+  <main>
+    <name>新闻信息搜索</name>
+    <version>2013-04-18</version>
+    <description>网站信息搜索功能</description>
+    <manageurl>/plugs/search/manage.aspx</manageurl>
+  </main>
+  <config>
+    <key name="state" description="是否开启搜索功能" value="1" />
+    <key name="templatepath" description="模板路径（相对于模板文件夹）" value="search.html" />
+    <key name="keywordlengthmin" description="关键字长度-min" value="1" />
+    <key name="keywordlengthmax" description="关键字长度-max" value="10" />
+    <key name="searchmode" description="搜索模式" value="3" />
+  </config>
+</plugs>

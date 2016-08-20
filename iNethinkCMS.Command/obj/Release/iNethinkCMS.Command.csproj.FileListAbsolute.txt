@@ -1,0 +1,5 @@
+G:\BigProject\iNethinkCMS.Command\bin\Release\iNethinkCMS.Command.dll
+G:\BigProject\iNethinkCMS.Command\bin\Release\iNethinkCMS.Helper.dll
+G:\BigProject\iNethinkCMS.Command\obj\Release\iNethinkCMS.Command.csprojResolveAssemblyReference.cache
+G:\BigProject\iNethinkCMS.Command\obj\Release\iNethinkCMS.Command.dll
+G:\BigProject\iNethinkCMS.Command\bin\Release\Newtonsoft.Json.Net20.dll

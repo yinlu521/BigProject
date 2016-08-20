@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="channel.aspx.cs" Inherits="iNethinkCMS.Web.channel" %>

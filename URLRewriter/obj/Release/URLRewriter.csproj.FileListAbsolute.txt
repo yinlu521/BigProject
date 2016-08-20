@@ -1,0 +1,3 @@
+G:\BigProject\URLRewriter\bin\Release\URLRewriter.dll
+G:\BigProject\URLRewriter\obj\Release\URLRewriter.csprojResolveAssemblyReference.cache
+G:\BigProject\URLRewriter\obj\Release\URLRewriter.dll

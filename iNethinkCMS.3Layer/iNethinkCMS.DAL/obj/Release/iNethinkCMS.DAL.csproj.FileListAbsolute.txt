@@ -1,0 +1,5 @@
+G:\BigProject\iNethinkCMS.3Layer\iNethinkCMS.DAL\bin\Release\iNethinkCMS.DAL.dll
+G:\BigProject\iNethinkCMS.3Layer\iNethinkCMS.DAL\bin\Release\iNethinkCMS.Helper.dll
+G:\BigProject\iNethinkCMS.3Layer\iNethinkCMS.DAL\bin\Release\iNethinkCMS.Model.dll
+G:\BigProject\iNethinkCMS.3Layer\iNethinkCMS.DAL\obj\Release\iNethinkCMS.DAL.csprojResolveAssemblyReference.cache
+G:\BigProject\iNethinkCMS.3Layer\iNethinkCMS.DAL\obj\Release\iNethinkCMS.DAL.dll
